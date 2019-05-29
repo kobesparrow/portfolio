@@ -6,15 +6,22 @@ h2 {
   text-align: center;
 }
 
-.headshot {
-  height: 100px;
-}
-
 .about-details {
   display: flex;
   justify-content: space-between;
+  align-content: center;
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.about-text {
+  margin-top: 0px;
+}
+
+.headshot {
+  height: 150px;
+  margin-right: 60px;
+  border-radius: 150px;
 }
 
 .about-columns {
@@ -27,6 +34,17 @@ h2 {
   }
 }
 
-.institution-header {
-  font-weight: bold;
+.about-tech-stack {
+  width: 150px;
+  font-weight: 200;
+}
+
+.header {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.subhead {
+  font-weight: 200;
+  margin: 0px;
 }
