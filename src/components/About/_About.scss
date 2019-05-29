@@ -6,8 +6,15 @@ h2 {
   text-align: center;
 }
 
+.headshot {
+  height: 100px;
+}
+
 .about-details {
   display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .about-columns {
@@ -18,4 +25,8 @@ h2 {
   article {
     margin: 25px;
   }
+}
+
+.institution-header {
+  font-weight: bold;
 }

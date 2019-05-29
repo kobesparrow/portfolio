@@ -1,4 +1,5 @@
 import React from 'react';
+import headshot from '../../images/mark-profile.jpeg';
 
 const About = () => {
   
@@ -6,7 +7,9 @@ const About = () => {
     <section className='about-section'>
       <h2>ABOUT</h2>
       <section className='about-details'>
+        <img src='headshot' className='headshot'/>
         <p>Given a lifetime of keyboards writing news articles, novels, and marketing copy, I found a place to combine my disparate professional experiences: writing code.
+        <br />   
         <br />   
         As a fledgling software engineer I live for moments of discovery after long bouts of frustration. Creating intuitively designed, user-driven products has given me the ability to further explore personal interests filling previously unseen needs.</p>
       </section>
@@ -42,10 +45,10 @@ const About = () => {
         <article>
           <h3>Education</h3>
           <hr />
-          <p>Turing School of Software and Design</p>
+          <p className='institution-header'>Turing School of Software and Design</p>
           <p>Front-end engineering, August 2019</p>
           <br />
-          <p>Colorado State University</p>
+          <p className='institution-header'>Colorado State University</p>
           <p>BA in Journalism, 2007</p>
           <p>Concentration in news, editorial and technical communication</p>
         </article> 

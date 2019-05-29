@@ -1,6 +1,7 @@
 import React from 'react';
 import Splash from '../Splash/Splash';
 import About from '../About/About';
+import Projects from '../Projects/Projects';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       </header>
       <Splash />
       <About />
+      {/* <Projects /> */}
     </div>
   );
 }
