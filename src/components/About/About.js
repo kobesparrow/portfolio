@@ -1,5 +1,6 @@
 import React from 'react';
 import headshot from '../../images/mark-profile.jpeg';
+import chevron from '../../images/chevron.svg';
 
 const About = () => {
   
@@ -62,6 +63,7 @@ const About = () => {
           <br />
         </article>  
       </section>
+      <img src={ chevron } className='chevron' />
     </section>
   )
 }
