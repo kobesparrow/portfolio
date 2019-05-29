@@ -1,0 +1,28 @@
+h1 {
+  font-family: 'Ultra', serif;
+  margin: 0px;
+  font-size: 65px;
+}
+
+.splash-image {
+  height: 65vh;
+  background: url(images/IMG_2284.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: -25px;
+  color: #FFFFFF;
+  margin: 0px;
+}
+
+.splash-image-name {
+  position: absolute;
+  right: 50px;
+  top: 350px;
+}
+
+.splash-text {
+  font-size: 1.5rem;
+  margin: 30px 140px;
+  text-align: center;
+}

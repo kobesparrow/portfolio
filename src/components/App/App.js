@@ -1,22 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Splash from '../Splash/Splash';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <section className="header-links">
-          <p>HOME</p>
-          <p>ABOUT</p>
-          <p>WORK</p>
-          <p>RESUME</p>
-          <p>CONTACT</p>
+          <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>WORK</li>
+            <li>RESUME</li>
+            <li>CONTACT</li>
+          </ul>
         </section>
         <section className="social-links">
-          <p>social</p>
+          <p>social buttons</p>
         </section>
       </header>
+      <Splash />
     </div>
   );
 }
