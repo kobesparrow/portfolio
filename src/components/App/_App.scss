@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700,900|Ultra&display=swap');
 
-// @import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700,900&display=swap')
-
 body {
   margin: 0px;
   font-family: 'Titillium Web', sans-serif;
@@ -11,6 +9,10 @@ header {
   display: flex;
   justify-content: space-between;
   position: fixed;
+  width: 100%;
+  background-color: #FFFFFF;
+  opacity: .85;
+  // margin-top: 0px;
 }
 
 ul {

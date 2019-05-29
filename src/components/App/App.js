@@ -22,7 +22,7 @@ function App() {
       </header>
       <Splash />
       <About />
-      {/* <Projects /> */}
+      <Projects />
     </div>
   );
 }
