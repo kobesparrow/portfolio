@@ -1,0 +1,21 @@
+.about-section {
+  margin-top: 60px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.about-details {
+  display: flex;
+}
+
+.about-columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+
+  article {
+    margin: 25px;
+  }
+}

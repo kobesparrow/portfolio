@@ -1,10 +1,11 @@
 import React from 'react';
 import Splash from '../Splash/Splash';
+import About from '../About/About';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
         <section className="header-links">
           <ul>
             <li>HOME</li>
@@ -14,11 +15,12 @@ function App() {
             <li>CONTACT</li>
           </ul>
         </section>
-        <section className="social-links">
+        {/* <section className="social-links">
           <p>social buttons</p>
-        </section>
+        </section> */}
       </header>
       <Splash />
+      <About />
     </div>
   );
 }
