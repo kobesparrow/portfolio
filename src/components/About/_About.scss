@@ -1,0 +1,32 @@
+.about-section {
+  margin-top: 60px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.headshot {
+  height: 100px;
+}
+
+.about-details {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.about-columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+
+  article {
+    margin: 25px;
+  }
+}
+
+.institution-header {
+  font-weight: bold;
+}

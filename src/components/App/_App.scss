@@ -8,6 +8,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  position: fixed;
 }
 
 ul {
@@ -29,6 +30,6 @@ li {
   margin-right: auto;
 }
 
-.social-links {
-  margin-right: 25px;
-}
+// .social-links {
+//   margin-right: 25px;
+// }
