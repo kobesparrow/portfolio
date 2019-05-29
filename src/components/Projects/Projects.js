@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../Project/Project';
+import chevron from '../../images/chevron.svg';
 import { projectData } from '../../utils/project-data';
 
 const Projects = () => {
@@ -10,9 +11,10 @@ const Projects = () => {
   return(
     <section className='projects-section'>
       <h2>PROJECTS</h2>
-      <section className='projects-display-one'>
+      <section className='projects-display'>
         { projectInfo }
       </section>
+      <img src={ chevron } className='chevron' />
     </section>
   )
 }

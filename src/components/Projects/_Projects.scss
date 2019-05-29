@@ -2,10 +2,13 @@
   margin-top: 75px;
 }
 
-.projects-display-one {
+.projects-display {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 150px;
 }
 
-.projects-display-two {
-  display: flex;
+.project-image {
+  width: 320px;
 }
