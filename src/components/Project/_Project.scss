@@ -4,23 +4,11 @@
   margin: 35px 35px;;
   border: .5px solid #DCDCDC;
   padding: 10px;
-  // flex: 0 50%;
   p {
     margin-top: 6px;
     margin-bottom: 0px;
   }
 }
-
-.project-details {
-  margin-left: 15px;
-}
-
-// .project:hover {
-//   transform: scale(1.5);
-//   background-color: #FFFFFF;
-//   border: 1px solid #000000;
-//   cursor: pointer;
-// }
 
 .project-image {
   width: 450px;
@@ -28,7 +16,6 @@
 
 .project-image:hover {
   transform: scale(1.7);
-
 }
 
 .project-title {
@@ -44,3 +31,12 @@
 .project-subhead {
   font-weight: 600;
 }
+
+.project-details {
+  margin-left: 15px;
+}
+
+// .project-specifics {
+//   position: relative;
+//   bottom: 20px;
+// }
