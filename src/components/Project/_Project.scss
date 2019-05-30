@@ -1,6 +1,42 @@
 .project {
-  width: 320px;
-  margin: 20px 50px;;
-  border: 3px solid #000000;
-  // flex: 0 50%;
+  width: 450px;
+  height: 500px;
+  margin: 35px 35px;;
+  border: .5px solid #DCDCDC;
+  padding: 10px;
+  p {
+    margin-top: 6px;
+    margin-bottom: 0px;
+  }
 }
+
+.project-image {
+  width: 450px;
+}
+
+.project-image:hover {
+  transform: scale(1.7);
+}
+
+.project-title {
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.tech-stack {
+  margin-top: 4px;
+}
+
+.project-subhead {
+  font-weight: 600;
+}
+
+.project-details {
+  margin-left: 15px;
+}
+
+// .project-specifics {
+//   position: relative;
+//   bottom: 20px;
+// }
