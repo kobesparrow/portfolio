@@ -3,12 +3,13 @@ import React from 'react';
 const Contact = () => {
   
   return(
-    <section>
+    <section className='contact-info'>
       <h2>CONTACT</h2>
-      <section className='contact-info'>
         <h3>Mark Collins</h3>
         <hr />
-      </section>
+        <p>(970)231-3554</p>
+        <p>markcollins.md@gmail.com</p>
+        <p>social icons</p>
     </section>
   )
 }

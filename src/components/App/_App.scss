@@ -41,3 +41,23 @@ li {
 // .social-links {
 //   margin-right: 25px;
 // }
+
+footer {
+  height: 400px;
+  background: url(images/stephen-walker-1160866-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 125px;
+}
+
+.copyright-section {
+  color: #FFFFFF;
+  text-align: center;
+  position: relative;
+  top: 360px;
+  // p {
+  //   position: relative;
+  //   bottom: -400px;
+  // }
+}

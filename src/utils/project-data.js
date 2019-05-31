@@ -4,7 +4,7 @@ export const projectData = [
     stack: 'React, Router, Redux, Sass, Jest/Enzyme, PostgreSQL',
     deets: `Represents the user's movie collection, allowing them to view current and upcoming films, login, and save favorites`,
     goals: 'Incorporated Redux and nuances of fetching data and storing it locally or globally with an emphasis on React frameworks',
-    image: 'https://i.postimg.cc/GmxWdvzd/Screen-Shot-2019-05-14-at-11-05-34-PM.png'
+    image: 'https://i.postimg.cc/yNh3ZQ9W/Screen-Shot-2019-05-31-at-8-24-00-AM.png'
   },
   { id: 2,
     title: 'Board, Not Bored',
@@ -18,7 +18,7 @@ export const projectData = [
     stack: 'React, Sass, Jest/Enzyme',
     deets: 'A Dr. Seuss inspired app for Sass terminology',
     goals: 'Built in five days, represents a strong grasp of React concepts with a commitment to to style and user experience',
-    image: 'https://i.postimg.cc/8CXn0KW5/Screen-Shot-2019-04-17-at-1-32-34-PM.png'
+    image: 'https://i.postimg.cc/zBsmYjtS/Screen-Shot-2019-05-31-at-8-08-58-AM.png'
   },
   { id: 4,
     title: 'University of Texas Institute for Geophysics',

@@ -5,8 +5,12 @@ import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 
 function App() {
+
+  let d = new Date()
+  const year = (d.getFullYear())
+
   return (
-    <div className="App">
+    <section className="App">
       <header>
         <section className="header-links">
           <ul>
@@ -25,7 +29,12 @@ function App() {
       <About />
       <Projects />
       <Contact />
-    </div>
+      <footer>
+        <section className='copyright-section'>
+          <p>Copyright © {year} Mark Collins</p>
+        </section>
+      </footer>
+    </section>
   );
 }
 
