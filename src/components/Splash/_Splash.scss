@@ -12,7 +12,6 @@ h1 {
   background-attachment: fixed;
   background-position-y: -25px;
   color: #FFFFFF;
-  // margin-top: 25px;
 }
 
 .splash-image-name {
@@ -23,6 +22,7 @@ h1 {
 
 .splash-text {
   font-size: 1.5rem;
-  margin: 30px 140px;
+  width: 700px;
+  margin: 30px auto;
   text-align: center;
 }

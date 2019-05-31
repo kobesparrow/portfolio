@@ -1,7 +1,8 @@
 .project {
   width: 450px;
   height: 500px;
-  margin: 35px 35px;;
+  // margin-top: 
+  margin: 0px 18px 35px 18px;
   border: .5px solid #DCDCDC;
   padding: 10px;
   p {
@@ -12,10 +13,12 @@
 
 .project-image {
   width: 450px;
+  transition: transform .5s ease;
 }
 
 .project-image:hover {
   transform: scale(1.7);
+  transition: transform 2s ease 1s;
 }
 
 .project-title {
@@ -26,6 +29,7 @@
 
 .tech-stack {
   margin-top: 4px;
+  height: 40px;
 }
 
 .project-subhead {
@@ -36,7 +40,11 @@
   margin-left: 15px;
 }
 
-// .project-specifics {
-//   position: relative;
-//   bottom: 20px;
-// }
+.project-specifics {
+  position: relative;
+  bottom: -20px;
+  
+  p {
+    margin-bottom: 10px;
+  }
+}

@@ -1,5 +1,5 @@
 .about-section {
-  margin-top: 60px;
+  margin-top: 75px;
 }
 
 h2 {
@@ -30,13 +30,36 @@ h2 {
   padding: 0px 100px;
 
   article {
-    margin: 25px;
+    margin: 25px 45px;
   }
 }
 
 .about-tech-stack {
-  width: 150px;
+  width: 250px;
   font-weight: 200;
+
+  dl {
+    margin-left: 10px;
+  }
+}
+
+dd {
+  margin-left: 10px;
+}
+
+.about-education {
+
+  p {
+    margin-left: 10px;
+  }
+
+}
+
+.about-experience {
+  
+  p {
+    margin-left: 10px;
+  }
 }
 
 .header {
@@ -49,3 +72,6 @@ h2 {
   margin: 0px;
 }
 
+.job-details {
+  font-weight: 200;
+}

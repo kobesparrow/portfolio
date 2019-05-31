@@ -5,7 +5,7 @@ import chevron from '../../images/chevron.svg';
 const About = () => {
   
   return(
-    <section className='about-section'>
+    <section className='about-section' id='about'>
       <h2>ABOUT</h2>
       <section className='about-details'>
         <img src={ headshot } className='headshot'/>
@@ -19,30 +19,24 @@ const About = () => {
           <h3>Tech Stack</h3>
           <hr />
           <dl>
-            <dt>Javascript</dt>
-            <dt>React</dt>
-            <dd>Redux</dd>
-            <dd>Router</dd>
-            <dd>Express</dd>
-            <dt>CSS</dt>
-            <dd>Sass</dd>
-            <dt>HTML</dt>
-            <dt>Jest/Enzyme</dt>
-            <dt>Mocha/Chai</dt>
-            <dt>Git</dt>
-            <dd>GitHub</dd>
-            <dt>Weback/NPM</dt>
-            <dt>Fetch/XHR</dt>
+            <dt>• Javascript</dt>
+            <dt>• React</dt>
+            <dd>- Redux</dd>
+            <dd>- Router</dd>
+            <dd>- Express</dd>
+            <dt>• CSS</dt>
+            <dd>- Sass</dd>
+            <dt>• HTML</dt>
+            <dt>• Jest/Enzyme</dt>
+            <dt>• Mocha/Chai</dt>
+            <dt>• Git</dt>
+            <dd>- GitHub</dd>
+            <dt>• Weback/NPM</dt>
+            <dt>• Fetch/XHR</dt>
+            <dt>• VS Code</dt>
           </dl>  
         </article>
-        {/* <article>
-          <h3>Projects</h3>
-          <hr />
-          <article>
-            <p>T</p>
-          </article>  
-        </article>  */}
-        <article>
+        <article className='about-education'>
           <h3>Education</h3>
           <hr />
           <p className='header'>Turing School of Software and Design</p>
@@ -52,14 +46,16 @@ const About = () => {
           <p className='subhead'>BA in Journalism, 2007</p>
           <p className='subhead'>Concentration in news, editorial and technical communication</p>
         </article> 
-        <article>
+        <article className='about-experience'>
           <h3>Experience</h3>
           <hr />
           <p className='header'>Digital Media Manager</p>
           <p className='subhead'>University of Texas at Austin</p>
+          <p className='job-details'> — Rebuilt department website with modular CMS system, incorporating SQL-based research resources for staff while accommodating front-facing recruitment resources</p>
           <br />
           <p className='header'>SEO Marketing Manager</p>
           <p className='subhead'>First Online Solutions</p>
+          <p className='job-details'> — Managed a network of more than 40 travel blogs; assisted writers, edited copy, made design decisions, collaborated with social media, and managed a team of developers</p>
           <br />
         </article>  
       </section>
