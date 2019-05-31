@@ -13,15 +13,11 @@
 
 .project-image {
   width: 450px;
-  // transition-delay: 1s;
   transition: transform .5s ease;
-  // transition: transform 2s ease;
-  // transition: scale 4s;
 }
 
 .project-image:hover {
   transform: scale(1.7);
-  // transition-delay: 1s;
   transition: transform 2s ease 1s;
 }
 
@@ -33,6 +29,7 @@
 
 .tech-stack {
   margin-top: 4px;
+  height: 40px;
 }
 
 .project-subhead {
@@ -43,7 +40,11 @@
   margin-left: 15px;
 }
 
-// .project-specifics {
-//   position: relative;
-//   bottom: 20px;
-// }
+.project-specifics {
+  position: relative;
+  bottom: -20px;
+  
+  p {
+    margin-bottom: 10px;
+  }
+}
