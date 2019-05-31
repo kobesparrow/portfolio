@@ -1,12 +1,18 @@
 import React from 'react';
+import SocialIcons from '../SocialIcons/SocialIcons';
 import Splash from '../Splash/Splash';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 
+
 function App() {
+
+  let d = new Date()
+  const year = (d.getFullYear())
+
   return (
-    <div className="App">
+    <section className="App">
       <header>
         <section className="header-links">
           <ul>
@@ -17,15 +23,18 @@ function App() {
             <li>CONTACT</li>
           </ul>
         </section>
-        {/* <section className="social-links">
-          <p>social buttons</p>
-        </section> */}
+        <SocialIcons />
       </header>
       <Splash />
       <About />
       <Projects />
       <Contact />
-    </div>
+      <footer>
+        <section className='copyright-section'>
+          <p>Copyright © {year} Mark Collins</p>
+        </section>
+      </footer>
+    </section>
   );
 }
 
