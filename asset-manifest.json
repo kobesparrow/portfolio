@@ -1,20 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e849d5a4.chunk.css",
-    "main.js": "/portfolio/static/js/main.8066e78b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8066e78b.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.ec73fd99.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ec73fd99.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.54d03290.chunk.js": "/portfolio/static/js/2.54d03290.chunk.js",
-    "static/js/2.54d03290.chunk.js.map": "/portfolio/static/js/2.54d03290.chunk.js.map",
+    "static/js/2.6e8b7c37.chunk.js": "/portfolio/static/js/2.6e8b7c37.chunk.js",
+    "static/js/2.6e8b7c37.chunk.js.map": "/portfolio/static/js/2.6e8b7c37.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.be21117f4d1618efc4d070023522e098.js": "/portfolio/precache-manifest.be21117f4d1618efc4d070023522e098.js",
+    "precache-manifest.9a7cb88e03d4873cd7e0747052f202ec.js": "/portfolio/precache-manifest.9a7cb88e03d4873cd7e0747052f202ec.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.e849d5a4.chunk.css.map": "/portfolio/static/css/main.e849d5a4.chunk.css.map",
     "static/media/base.scss": "/portfolio/static/media/stephen-walker-1160866-unsplash.f2201e4f.jpg",
     "static/media/chevron.svg": "/portfolio/static/media/chevron.3b078490.svg",
+    "static/media/github-hover.svg": "/portfolio/static/media/github-hover.e4f2d6b0.svg",
     "static/media/github.svg": "/portfolio/static/media/github.03ef488d.svg",
+    "static/media/instagram-hover.svg": "/portfolio/static/media/instagram-hover.b1c58ee1.svg",
     "static/media/instagram.svg": "/portfolio/static/media/instagram.bb026c4d.svg",
+    "static/media/linkedin-hover.svg": "/portfolio/static/media/linkedin-hover.4b475fb3.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.f5409d56.svg",
     "static/media/mark-profile.jpeg": "/portfolio/static/media/mark-profile.4fc7e57f.jpeg"
   }

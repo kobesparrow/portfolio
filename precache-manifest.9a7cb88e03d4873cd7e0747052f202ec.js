@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "909ad2d4222f3be0c1f99146f13d1084",
+    "revision": "bd17e90215a4fbf8bab2a98c2c6a4bb5",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "97df9de1711dd05bb637",
+    "revision": "5a255ee2d6777d4d8c4f",
     "url": "/portfolio/static/css/main.e849d5a4.chunk.css"
   },
   {
-    "revision": "188f6cf5aa84b36811bc",
-    "url": "/portfolio/static/js/2.54d03290.chunk.js"
+    "revision": "39f077cc5467b175c16b",
+    "url": "/portfolio/static/js/2.6e8b7c37.chunk.js"
   },
   {
-    "revision": "97df9de1711dd05bb637",
-    "url": "/portfolio/static/js/main.8066e78b.chunk.js"
+    "revision": "5a255ee2d6777d4d8c4f",
+    "url": "/portfolio/static/js/main.ec73fd99.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -28,12 +28,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/chevron.3b078490.svg"
   },
   {
+    "revision": "e4f2d6b028d93b8c7988d2132bf13ca2",
+    "url": "/portfolio/static/media/github-hover.e4f2d6b0.svg"
+  },
+  {
     "revision": "03ef488d95902be2cdd6b0b740a233df",
     "url": "/portfolio/static/media/github.03ef488d.svg"
   },
   {
+    "revision": "b1c58ee19d1e2c38b29ae86f3174f2e4",
+    "url": "/portfolio/static/media/instagram-hover.b1c58ee1.svg"
+  },
+  {
     "revision": "bb026c4d996a5d563f7fceb5166175e1",
     "url": "/portfolio/static/media/instagram.bb026c4d.svg"
+  },
+  {
+    "revision": "4b475fb3f54b3e35daa04295ec48df4c",
+    "url": "/portfolio/static/media/linkedin-hover.4b475fb3.svg"
   },
   {
     "revision": "f5409d562d5d613246fafbd03fe6a857",
