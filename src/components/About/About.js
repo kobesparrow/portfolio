@@ -33,6 +33,7 @@ const About = () => {
             <dd>- GitHub</dd>
             <dt>• Weback/NPM</dt>
             <dt>• Fetch/XHR</dt>
+            <dt>• PostgreSQL</dt>
             <dt>• VS Code</dt>
           </dl>  
         </article>
