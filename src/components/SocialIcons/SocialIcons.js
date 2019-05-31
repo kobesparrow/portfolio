@@ -1,7 +1,10 @@
 import React from 'react';
 import instagram from '../../images/instagram.svg';
+import instagramHover from '../../images/instagram-hover.svg'
 import gitHub from '../../images/github.svg';
+import gitHubHover from '../../images/github-hover.svg'
 import linkedIn from '../../images/linkedin.svg';
+import linkedInHover from '../../images/linkedin-hover.svg'
 
 const SocialIcons = () => {
   
