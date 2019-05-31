@@ -12,7 +12,14 @@ header {
   width: 100%;
   background-color: #FFFFFF;
   opacity: .85;
-  // margin-top: 0px;
+  
+  .social-section {
+    margin: auto 20px;
+  }
+  
+  .social-icon {
+    height: 20px;
+  }
 }
 
 h2 {
@@ -56,8 +63,4 @@ footer {
   text-align: center;
   position: relative;
   top: 360px;
-  // p {
-  //   position: relative;
-  //   bottom: -400px;
-  // }
 }

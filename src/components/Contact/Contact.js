@@ -1,15 +1,16 @@
 import React from 'react';
+import SocialIcons from '../SocialIcons/SocialIcons';
 
 const Contact = () => {
   
   return(
     <section className='contact-info'>
       <h2>CONTACT</h2>
-        <h3>Mark Collins</h3>
-        <hr />
-        <p>(970)231-3554</p>
-        <p>markcollins.md@gmail.com</p>
-        <p>social icons</p>
+      <h3>Mark Collins</h3>
+      <hr />
+      <p>markcollins.md@gmail.com</p>
+      <p>(970)231-3554</p>
+      <SocialIcons />
     </section>
   )
 }

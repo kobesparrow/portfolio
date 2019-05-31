@@ -1,8 +1,10 @@
 import React from 'react';
+import SocialIcons from '../SocialIcons/SocialIcons';
 import Splash from '../Splash/Splash';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
+
 
 function App() {
 
@@ -21,9 +23,7 @@ function App() {
             <li>CONTACT</li>
           </ul>
         </section>
-        {/* <section className="social-links">
-          <p>social buttons</p>
-        </section> */}
+        <SocialIcons />
       </header>
       <Splash />
       <About />
