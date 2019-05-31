@@ -4,6 +4,7 @@ import Splash from '../Splash/Splash';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
+import SmoothScroll from '../SmoothScroll/SmoothScroll'
 
 
 function App() {
@@ -12,17 +13,9 @@ function App() {
   const year = (d.getFullYear())
 
   return (
-    <section className="App">
+    <section className="App" id='home'>
       <header>
-        <section className="header-links">
-          <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>PROJECTS</li>
-            {/* <li>RESUME</li> */}
-            <li>CONTACT</li>
-          </ul>
-        </section>
+        <SmoothScroll />
         <SocialIcons />
       </header>
       <Splash />

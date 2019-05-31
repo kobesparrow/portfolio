@@ -5,7 +5,7 @@ import chevron from '../../images/chevron.svg';
 const About = () => {
   
   return(
-    <section className='about-section'>
+    <section className='about-section' id='about'>
       <h2>ABOUT</h2>
       <section className='about-details'>
         <img src={ headshot } className='headshot'/>
