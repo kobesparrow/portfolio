@@ -18,8 +18,8 @@ function App() {
           <ul>
             <li>HOME</li>
             <li>ABOUT</li>
-            <li>WORK</li>
-            <li>RESUME</li>
+            <li>PROJECTS</li>
+            {/* <li>RESUME</li> */}
             <li>CONTACT</li>
           </ul>
         </section>
