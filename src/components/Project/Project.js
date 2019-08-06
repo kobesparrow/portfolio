@@ -1,10 +1,12 @@
 import React from 'react';
 
-const Project = ({title, stack, deets, goals, image}) => {
+const Project = ({title, stack, deets, goals, image, site}) => {
 
   return(
     <article className='project'>
-      <img src={ image } className='project-image' />
+      <a href={ site } target='_blank'>
+        <img src={ image } className='project-image' alt='project screenshot'/>
+      </a>
       <section className='project-details'>
         <p className='project-title'>{ title }</p>
         <p className='tech-stack'><span className='project-subhead'>Tech Stack: </span>{ stack }</p>

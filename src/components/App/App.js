@@ -9,8 +9,8 @@ import SmoothScroll from '../SmoothScroll/SmoothScroll'
 
 function App() {
 
-  let d = new Date()
-  const year = (d.getFullYear())
+  let date = new Date()
+  const year = (date.getFullYear())
 
   return (
     <section className="App" id='home'>

@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700,900|Ultra&display=swap');
 
+
 body {
   margin: 0px;
   font-family: 'Titillium Web', sans-serif;
 }
 
 header {
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -32,6 +34,25 @@ h2 {
   font-size: 50px;
 }
 
+.header-links {
+  display: flex;
+  align-content: center;
+}
+
+// .links-list {
+//   display: none;
+// }
+
+.menu-button {
+  visibility: hidden;
+}
+
+.hamburger-icon {
+  height: 25px;
+  margin-left: 20px;
+  margin-top: 13px;
+}
+
 ul {
   font-size: 14px;
   display: flex;
@@ -40,17 +61,12 @@ ul {
 }
 
 li {
-  // margin: 15px;
   list-style: none;
   margin: auto 15px;
 }
 
 li:hover {
   transform: scale(1.15);
-  // color: #FFFFFF;
-  // background-color: #000000;
-  // padding: 20px;
-  // margin: 0px;
   cursor: pointer;
 }
 
@@ -60,10 +76,6 @@ li:hover {
   margin-left: auto;
   margin-right: auto;
 }
-
-// .social-links {
-//   margin-right: 25px;
-// }
 
 footer {
   height: 400px;
