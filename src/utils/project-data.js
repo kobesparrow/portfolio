@@ -25,6 +25,7 @@ export const projectData = [
     stack: 'HTML, CSS, Wordpress',
     deets: 'Professional project built to spec for UTIG',
     goals: 'Incorporated an accessible content management system for department heads, incorporated SEO best practices and acted as webmaster while creating conteht',
-    image: 'https://i.postimg.cc/gjzdHBP0/Screen-Shot-2019-05-30-at-10-33-03-AM.png'
+    image: 'https://i.postimg.cc/gjzdHBP0/Screen-Shot-2019-05-30-at-10-33-03-AM.png',
+    site: 'https://www.ig.utexas.edu/'
   }
 ]

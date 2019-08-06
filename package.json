@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kobesparrow.github.io/portfolio",
+  "homepage": "https://www.markrcollins.com",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0",

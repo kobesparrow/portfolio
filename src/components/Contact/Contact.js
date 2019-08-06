@@ -9,7 +9,7 @@ const Contact = () => {
       <h3>Mark Collins</h3>
       <hr />
       <p>markcollins.md@gmail.com</p>
-      <p>(970)231-3554</p>
+      <p>(970) 231-3554</p>
       <SocialIcons />
     </section>
   )

@@ -14,7 +14,7 @@ const Projects = () => {
       <section className='projects-display'>
         { projectInfo }
       </section>
-      <img src={ chevron } className='chevron' />
+      <img src={ chevron } className='chevron' alt='down arrow'/>
     </section>
   )
 }

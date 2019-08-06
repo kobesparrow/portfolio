@@ -1,28 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
+
 h1 {
-  font-family: 'Ultra', serif;
+  font-family: 'Fredericka the Great', cursive;
   margin: 0px;
-  font-size: 65px;
+  font-size: 4.5rem;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  font-weight: 200;
 }
 
 .splash-image {
   height: 75vh;
-  background: url(images/IMG_2284.JPG);
+  background:  url(images/IMG_2284.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position-y: -25px;
-  color: #FFFFFF;
+  filter: contrast(110%);
 }
 
 .splash-image-name {
   position: absolute;
   right: 50px;
-  top: 350px;
+  top: 475px;
 }
 
 .splash-text {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   width: 700px;
-  margin: 30px auto;
+  margin: 60px auto 40px auto;
   text-align: center;
 }
